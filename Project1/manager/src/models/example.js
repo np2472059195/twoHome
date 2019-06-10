@@ -4,7 +4,10 @@ export default {
   namespace: 'example',
 
   // 模块内部的状态
-  state: {},
+  state: {
+    userName:'chenmanjie',
+    userPwd:'chenmanjie132!'
+  },
 
   subscriptions: {
     setup({ dispatch, history }) {  // eslint-disable-line
